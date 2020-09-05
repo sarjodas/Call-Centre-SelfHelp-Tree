@@ -1,0 +1,10 @@
+[
+    { "question": "Do you have a link led on your Ethernet network adapter on ?", "id": "7", "yes":"1", "no":"0" },
+    { "question": "Can you PING the Controller ?", "id": "1", "yes":"2", "no":"3"},
+    { "question": "Is the controller on power and in ready mode ?", "id": "0", "yes":"4", "no":"5" },
+    { "question": "Check the controller type setting in the plc-project and compare with the controller hardware type. Problem still present?", "id": "2", "yes":"4", "no":"6" },
+    { "question": "Set the IP Address of your PC in the same Subnet range as the Controller and check the firewall settings.  Can you PING the Controller? (Yes-Back to Start-Problem not solved/No-Create Ticket)", "id": "3", "yes":"7", "no": "4" },
+    { "question": "No answer found - Create a Ticket?", "id": "4", "yes":"support", "no":"support" },
+    { "question": "Problem Solved! Click Yes", "id": "6", "yes":"second", "no":"second" },
+    { "question": "Please turn on the controller and wait until the status Led’s show ready mode. Back To Start!", "id": "5", "yes":"7", "no":"7" }
+]

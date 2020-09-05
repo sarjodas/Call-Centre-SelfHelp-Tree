@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lenze</title>
+<link rel="stylesheet" href="style/bootstrap.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+</head>
+
+<body>
+	<h1 style="color: #0000A0;">Lenze</h1>
+	<h2>Call Center Support Software</h2>
+	<br>
+	<div>
+		<p>
+			<b> Problem: </b> No connection to the controller from my PC
+			PLC-Project
+		</p>
+
+		<button type="button" class="btn btn-primary" id="help">Help</button>
+	</div>
+
+	<div class="container">
+		<div id="start">
+			<div id="first">
+				<div class="well" id="question"></div>
+				<button type="button" class="btn btn-success" id="yes"
+					onClick="callQuestion(this.id);">Yes</button>
+				<button type="button" class="btn btn-danger" id="no"
+					onClick="callQuestion(this.id);">No</button>
+				<input type="button" class="btn btn-info" value="Close Support"
+					onClick="window.location.reload()">
+				<div id="ids"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
